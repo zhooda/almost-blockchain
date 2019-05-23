@@ -1,0 +1,4 @@
+/*
+block and blockchain classes in JS
+
+*/
