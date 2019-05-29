@@ -9,12 +9,18 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
+    @IBOutlet weak var cardImageView: UIImageView!
+    @IBOutlet weak var indexImageView: UIImageView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        
+        cardImageView.layer.cornerRadius = 30.0
+        indexImageView.layer.cornerRadius = 30.0
     }
 
-
+    
 }
 
