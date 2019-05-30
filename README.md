@@ -55,8 +55,8 @@ Running the WebClient (Requires WebServer to be running):
 
 Running the MobileClient:
 *NOTE:* You will need a Mac running the latest version of Xcode for this to work
-1. ```bash cd ~/almost-blockchain/Sources/MobileClient```
-2. ```bash open -R almost-blockchain.xcodeproj```
+1. ```$ cd ~/almost-blockchain/Sources/MobileClient```
+2. ```$ open -R almost-blockchain.xcodeproj```
 3. Select your development team and provisioning profile
 4. Choose build target device or simulator
 5. Press the build and run button
