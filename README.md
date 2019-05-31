@@ -13,7 +13,7 @@
 
 <p align="center"><a href="https://github.com/zhooda/almost-blockchain"><img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/zhooda/almost-blockchain.svg?logo=github&amp;logoColor=white&amp;style=flat-square&amp;labelColor=black" /></a>
 <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/zhooda/almost-blockchain.svg?logo=koding&amp;logoColor=white&amp;style=flat-square&amp;labelColor=black" />
-<img alt="GitHub commit activity" src="https://img.shields.io/github/commit-activity/w/zhooda/almost-blockchain.svg?logo=code-climate&amp;logoColor=white&amp;style=flat-square&amp;labelColor=black" />
+<img alt="GitHub commit activity" src="https://img.shields.io/github/commit-activity/m/zhooda/almost-blockchain.svg?logo=code-climate&logoColor=white&style=flat-square&labelColor=black" />
 <a href="https://nodejs.org"><img alt="nodejs version" src="https://img.shields.io/static/v1.svg?style=flat-square&amp;logo=node.js&amp;label=node.js&amp;logoColor=white&amp;message=10.26.0%2B&amp;color=green&amp;labelColor=black" /></a>
 <a href="https://nodejs.org"><img alt="npm version" src="https://img.shields.io/static/v1.svg?style=flat-square&amp;logo=npm&amp;logoColor=white&amp;label=npm&amp;message=6.9.0%2B&amp;color=red&amp;labelColor=black" /></a>
 <a href="https://developer.apple.com/account/ios/profile/"><img alt="macOS" src="https://img.shields.io/static/v1.svg?style=flat-square&amp;logo=apple&amp;logoColor=white&amp;label=macOS&amp;message=10.13.0%2B&amp;color=orange&amp;labelColor=black" /></a>
