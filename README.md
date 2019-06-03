@@ -52,8 +52,10 @@ If you'd like to build or test the iOS app, you will need:
 #### Dependencies
 
 - Node Package Manager
-- AngularJS
-- CommonCrypto? 
+- AngularJS CLI
+- Elliptic (Curve Cryptography)
+
+**NOTE:** To insall dependencies included in package-lock.json, run `npm install` in project root directory.
 
 #### Installation
 
