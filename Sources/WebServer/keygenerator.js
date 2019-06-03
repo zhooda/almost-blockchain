@@ -14,4 +14,4 @@ console.log()
 console.log('Your public key (also your wallet address)\n', publicKey)
 
 console.log()
-console.log('Your private key (ensure this is kept a secret)\n', publicKey)
+console.log('Your private key (ensure this is kept a secret)\n', privateKey)

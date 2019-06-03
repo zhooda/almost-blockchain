@@ -2,16 +2,30 @@
 /// Zeeshan Hooda
 /// 23 May 2019
 
-const bc = require('./blockchainClasses')
-const Block = bc.Block
-const Blockchain = bc.Blockchain
+const { Blockchain, Transaction } = require('./blockchainClasses')
+const EC = require('elliptic').ec
+const ec = new EC('secp256k1')
 
-var coin = new Blockchain()
+const myKey = ec.keyFromPrivate('bc9319d59feddbdd383722404525d89ad7df1acb53bdd451ddafa5d128a9419f')
 
-// coin.addBlock(new Block(1, "05/16/2019", { amount: 4 }))
+const myWalletAddress = myKey.getPublic('hex')
 
-for(let i = 1; i < 20; i++) {
-	coin.addBlock(new Block(i, { amount: i*7.38 }))
-}
+const dhicoin = new Blockchain()
 
-console.log(coin.chain)
+const tx1 = new Transaction(myWalletAddress, 'addy2', 100)
+tx1.signTransaction(myKey)
+dhicoin.addTransaction(tx1)
+
+dhicoin.minePendingTransactions(myWalletAddress)
+
+const tx2 = new Transaction(myWalletAddress, 'addy1', 50)
+tx2.signTransaction(myKey)
+dhicoin.addTransaction(tx2)
+
+dhicoin.minePendingTransactions(myWalletAddress)
+
+console.log()
+console.log(`Balance of my wallet is ${dhicoin.getBalanceOfAddress(myWalletAddress)}`)
+
+console.log()
+console.log('Blockchain valid?', dhicoin.isChainValid() ? 'Yes' : 'No')
