@@ -16,9 +16,9 @@
 <img alt="GitHub commit activity" src="https://img.shields.io/github/commit-activity/m/zhooda/almost-blockchain.svg?logo=code-climate&logoColor=white&style=flat-square&labelColor=black" />
 <a href="https://nodejs.org"><img alt="nodejs version" src="https://img.shields.io/static/v1.svg?style=flat-square&amp;logo=node.js&amp;label=node.js&amp;logoColor=white&amp;message=10.26.0%2B&amp;color=green&amp;labelColor=black" /></a>
 <a href="https://nodejs.org"><img alt="npm version" src="https://img.shields.io/static/v1.svg?style=flat-square&amp;logo=npm&amp;logoColor=white&amp;label=npm&amp;message=6.9.0%2B&amp;color=red&amp;labelColor=black" /></a>
-<a href="https://developer.apple.com/account/ios/profile/"><img alt="macOS" src="https://img.shields.io/static/v1.svg?style=flat-square&amp;logo=apple&amp;logoColor=white&amp;label=macOS&amp;message=10.13.0%2B&amp;color=orange&amp;labelColor=black" /></a>
-<a href="https://developer.apple.com/account/ios/profile/"><img alt="iOS" src="https://img.shields.io/static/v1.svg?style=flat-square&amp;logo=apple&amp;logoColor=white&amp;label=iOS&amp;message=11.0%2B&amp;color=orange&amp;labelColor=black" /></a>
-<a href="https://developer.apple.com/xcode/"><img alt="xcode" src="https://img.shields.io/static/v1.svg?style=flat-square&amp;logo=xcode&amp;logoColor=white&amp;label=Xcode&amp;message=10.0%2B&amp;color=blue&amp;labelColor=black" /></a>
+<a href="https://developer.apple.com/account/ios/profile/"><img alt="macOS" src="https://img.shields.io/static/v1.svg?style=flat-square&amp;logo=apple&amp;logoColor=white&amp;label=macOS&amp;message=10.15.0%2B&amp;color=orange&amp;labelColor=black" /></a>
+<a href="https://developer.apple.com/account/ios/profile/"><img alt="iOS" src="https://img.shields.io/static/v1.svg?style=flat-square&amp;logo=apple&amp;logoColor=white&amp;label=iOS&amp;message=13.0%2B&amp;color=orange&amp;labelColor=black" /></a>
+<a href="https://developer.apple.com/xcode/"><img alt="xcode" src="https://img.shields.io/static/v1.svg?style=flat-square&amp;logo=xcode&amp;logoColor=white&amp;label=Xcode&amp;message=11.0%20Beta&amp;color=blue&amp;labelColor=black" /></a>
 <a href="https://developer.apple.com/account/ios/profile/"><img alt="paid dev account" src="https://img.shields.io/static/v1.svg?style=flat-square&amp;logo=swift&amp;logoColor=white&amp;label=developer%20tier&amp;message=$0/year%20|%20$99/year&amp;color=blue&amp;labelColor=black" /></a></p>
 
 Amlost Blockchain is a custom blockchain and cryptocurrency built in JavaScript on NodeJS.
