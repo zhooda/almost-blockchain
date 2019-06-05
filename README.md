@@ -44,9 +44,9 @@ To run the webserver and web client, you will need:
 
 If you'd like to build or test the iOS app, you will need:
 
-- macOS 10.13 or later (Virtual Machines are fine)
-- iOS 11.0 or later (Physical device not required)
-- Xcode 10.0 or later
+- macOS 10.15 Beta or later (Virtual Machines are fine)
+- iOS 13.0 Beta or later (Physical device not required)
+- Xcode 11.0 Beta or later
 - Apple Developer account (Free tier is fine for testing)
 
 #### Dependencies
