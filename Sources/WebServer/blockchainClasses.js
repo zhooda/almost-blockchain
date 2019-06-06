@@ -87,6 +87,7 @@ class Block {
 class Blockchain {
     constructor() {
         this.chain = [this.createGenesisBlock()]
+        this.realGenesis = JSON.stringify(this.chain[0])
         this.difficulty = 2
         this.pendingTransactions = []
         this.miningReward = 100
@@ -171,7 +172,7 @@ class Blockchain {
     isChainValid() {
         const realGenesis = JSON.stringify(this.createGenesisBlock())
 
-        if (realGenesis !== JSON.stringify(this.chain[0])) {
+        if (this.realGenesis !== JSON.stringify(this.chain[0])) {
             return false
         }
 
