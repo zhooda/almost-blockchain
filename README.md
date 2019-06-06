@@ -67,11 +67,18 @@ git clone https://github.com/zhooda/almost-blockchain
 
 ## Usage
 
-Running the WebServer
+Running the WebServer (doesn't do anything yet)
 ```bash
 cd ~/almost-blockchain/Sources/WebServer
 
 node server.js
+```
+
+Running the TEST WebServer with sample keys
+```bash
+cd ~/almost-blockchain/Sources/WebServer
+
+node index.js
 ```
 
 #### Web Client:
