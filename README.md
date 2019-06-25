@@ -32,9 +32,9 @@ but we have no deployment strategies, so have at it.
 
 To run the webserver and web client, you will need:
 
-- ![NodeJS 10.26.0 or later](https://nodejs.org)
+- [NodeJS 10.26.0 or later](https://nodejs.org)
 - npm 6.9.0 or later
-- ![AngularJS](https://angular.io) 7.2.15 or later
+- [AngularJS](https://angular.io) 7.2.15 or later
 - Elliptic (Curve Cryptography)
 
 **NOTE:** To insall dependencies included in package-lock.json, run `npm install` in project root directory.
