@@ -32,7 +32,7 @@ but we have no deployment strategies, so have at it.
 
 To run the webserver and web client, you will need:
 
-- [NodeJS 10.26.0 or later](https://nodejs.org)
+- [NodeJS](https://nodejs.org) 10.26.0 or later
 - npm 6.9.0 or later
 - [AngularJS](https://angular.io) 7.2.15 or later
 - Elliptic (Curve Cryptography)
