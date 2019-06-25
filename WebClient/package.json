@@ -1,0 +1,31 @@
+{
+  "name": "Dhicoin",
+  "version": "1.0.0",
+  "description": "Simple Blockchain implementation in Javascript. For educational purposes only.",
+  "main": "src/main.js",
+  "author": "zhooda",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "http://deceptive.me"
+  },
+  "bugs": {
+    "url": "http://deceptive.me"
+  },
+  "homepage": "http://deceptive.me",
+  "dependencies": {
+    "crypto-js": "^3.1.9-1",
+    "elliptic": "^6.4.1"
+  },
+  "devDependencies": {
+    "coveralls": "^3.0.3",
+    "eslint": "^5.16.0",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-import": "^2.17.2",
+    "eslint-plugin-node": "^7.0.1",
+    "eslint-plugin-promise": "^4.1.1",
+    "eslint-plugin-standard": "^4.0.0",
+    "mocha": "^5.2.0",
+    "nyc": "^14.0.0"
+  }
+}
